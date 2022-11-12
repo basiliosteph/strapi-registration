@@ -22,7 +22,7 @@ class AuthClient
     public function register ($username, $email, $password)
     {
         $registration_heading = 'http://localhost:1337/api/auth/local/register';
-        return this->client->post($registration_heading, [
+        return $this->client->post($registration_heading, [
             'json' => [
                 'username' => $username,
                 'email' => $email,
@@ -34,7 +34,7 @@ class AuthClient
     public function login ($identifier, $password)
     {
         $login_heading = 'http://localhost:1337/api/auth/local';
-        return this->client->post($login_heading, [
+        return $this->client->post($login_heading, [
             'json' => [
                 'identifier' => $identifier,
                 'password' => $password

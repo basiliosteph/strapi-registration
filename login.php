@@ -15,4 +15,4 @@ $details = $information->user;
 $username = $details->username;
 $email = $details->email;
 
-header('Location: login-valid.php?username=' . $username . '$email=' . $email);
+header('Location: login-valid.php?username=' . $username . '&email=' . $email);

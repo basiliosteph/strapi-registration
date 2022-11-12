@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'user/ipt10-strapi-registration',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => 'fb9d3ecdd9e7aa9a006264b549681bc5c0c6fc04',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -101,9 +101,9 @@
             'dev_requirement' => false,
         ),
         'user/ipt10-strapi-registration' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'fb9d3ecdd9e7aa9a006264b549681bc5c0c6fc04',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
