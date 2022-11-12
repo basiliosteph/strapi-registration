@@ -26,14 +26,14 @@
                         <div class="row row-space">
                             <div class="col-2">
                                 <div class="input-group">
-                                    <label class="label">Email Address</label>
-                                    <input class="input--style-4" type="email" name="identifier">
+                                    <label class="label">Email Address/Username</label>
+                                    <input class="input--style-4" type="text" name="identifier">
                                 </div>
                             </div>
                             <div class="col-2">
                                 <div class="input-group">
                                     <label class="label">Password</label>
-                                    <input class="input--style-4" type="text" name="password">
+                                    <input class="input--style-4" type="password" name="password">
                                 </div>
                             </div>
                         <div class="p-t-15">

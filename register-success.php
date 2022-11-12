@@ -21,8 +21,8 @@
             <div class="card card-4">
                 <div class="card-body">
                 <div class="alert alert-success" role="alert">
-                <h2 class="title">Welcome, <?php echo $_GET['username']; ?> !</h2>
-                You've successfully created an account! <a href="login-form.php" class="alert-link">Click the link to Login.</a>. Give it a click if you like.
+                <h2 class="title">Welcome, <?php echo $_GET['username']; ?>!</h2>
+                You've successfully created an account! <a href="login-form.php" class="alert-link"><br>Click this link to be redirected to Login Page!</a>
                 </div>
                 </div>
             </div>

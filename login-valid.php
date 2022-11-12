@@ -20,8 +20,8 @@
         <div class="wrapper wrapper--w680">
             <div class="card card-4">
                 <div class="card-body">
-                    <h2 class="title">Welcome, <?php echo $_GET['username']; ?> !</h2>
-                    <h2 class="title">Here is your email address: <?php echo $_GET['email']; ?></h2>
+                    <h2 class="title">Welcome, <?php echo $_GET['username']; ?>!</h2>
+                    <h2 class="title">This is your email address: <?php echo $_GET['email']; ?></h2>
                 </div>
             </div>
         </div>
