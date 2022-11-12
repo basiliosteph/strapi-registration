@@ -22,7 +22,7 @@
                 <div class="card-body">
                 <div class="alert alert-success" role="alert">
                 <h2 class="title">Welcome, <?php echo $_GET['username']; ?> !</h2>
-                You've successfully created an account! <a href="#" class="alert-link">Click the link to Login.</a>. Give it a click if you like.
+                You've successfully created an account! <a href="login-form.php" class="alert-link">Click the link to Login.</a>. Give it a click if you like.
                 </div>
                 </div>
             </div>

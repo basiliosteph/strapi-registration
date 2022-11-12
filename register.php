@@ -11,4 +11,4 @@ $email = $_POST['email'];
 $password = $_POST['password'];
 $result = $client->register($username, $email, $password);
 
-header('Location: register-success.php');
+header('Location: register-success.php?username='. $username);
