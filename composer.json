@@ -1,0 +1,19 @@
+{
+    "name": "user/ipt10-strapi-registration",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+
+    "authors": [
+        {
+            "name": "basiliosteph",
+            "email": "basilio.stephanie@auf.edu.ph"
+        }
+    ],
+    
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    }
+}
